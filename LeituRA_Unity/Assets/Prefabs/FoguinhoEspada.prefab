@@ -887,6 +887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3451715554170446666}
+  - component: {fileID: 1988106497404589926}
   m_Layer: 0
   m_Name: FoguinhoMortoFull
   m_TagString: Untagged
@@ -916,6 +917,25 @@ Transform:
   m_Father: {fileID: 3074990149085460373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!95 &1988106497404589926
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2642809988454906352}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ddbf9b5ceadf8be4a992f36442016879, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2680059174911718856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2112,7 @@ Transform:
   m_GameObject: {fileID: 5282777334077319175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_Children:
   - {fileID: 3451715554170446666}
   - {fileID: 635691432074448405}
@@ -3677,7 +3697,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5669477009735947274, guid: 877171059c9f1a348bf3cf092dc3a136, type: 3}
+  - {fileID: 2100000, guid: 34364579122578c4694c328b0e6e063c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

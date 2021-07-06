@@ -49,25 +49,6 @@ MonoBehaviour:
   scaleMaxValue: 1.4
   rotMinValue: 0
   rotMaxValue: 360
---- !u!95 &1988106497404589926
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8216767952834138045}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ddbf9b5ceadf8be4a992f36442016879, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &6245075711657997901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79,21 +60,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074990149085460373, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074990149085460373, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 3074990149085460373, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 3074990149085460373, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
         type: 3}
@@ -150,22 +116,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoguinhoEspada
       objectReference: {fileID: 0}
-    - target: {fileID: 8489100865198455505, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 34364579122578c4694c328b0e6e063c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45c8a36cbcf5a6e48887fe9655c29f5a, type: 3}
 --- !u!4 &8936962976898548184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3074990149085460373, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6245075711657997901}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8216767952834138045 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2642809988454906352, guid: 45c8a36cbcf5a6e48887fe9655c29f5a,
     type: 3}
   m_PrefabInstance: {fileID: 6245075711657997901}
   m_PrefabAsset: {fileID: 0}
